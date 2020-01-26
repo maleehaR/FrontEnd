@@ -6,18 +6,24 @@
         <link rel ="stylesheet" href="login.css">
     </head>
 <body>
+
 <div class="content">
+
     <div class ="formbox">
         <div class="buttonbox">
             <div id="btn"></div>
             <button type="button" class="toggle-button" onclick="login()">Login</button>
             <button type="button" class="toggle-button" onclick="cteact()">Register</button>
         </div>
-        <div class"icons">
+ <!--       <div class"icons">
             <img src="google.png">
             <img src="twitter.png">
             <img src="facebook.png">
-        </div>
+        </div>	-->
+
+        <img class= "logo" src="logo.png" alt="logo" >
+        <h2 align="center">Nouvel</h2>
+
         <form id="login" class = "user-infomation">
             <input type="text" class="inputbox" placeholder="Username" required>
             <input type="password" class="inputbox" placeholder="Password" required>
@@ -25,14 +31,24 @@
             <button type="submit" class="subbtn">Login</button>
         </form>
         <form id="cteact" class = "user-infomation">
-            <input type="text" class="inputbox" placeholder="Username" required>
-            <input type="text" class="inputbox" placeholder="Email Address" required>
+            <input type="text" class="inputbox" placeholder="Name" required>
+            <input type="email" class="inputbox" placeholder="Email Address" required>
+             <input type= "text" class="inputbox" placeholder="Street Address1" required>
+             <input type="text" class="inputbox" placeholder="Username" required>
             <input type="password" class="inputbox" placeholder="Password" required>
             <input type="password" class="inputbox" placeholder="Renter Password" required>
-            <input type= "text" class="inputbox" placeholder="Street Address1" required>
-            <input type="checkbox" class="chkbox"><span>I agree to the terms & 
+          
+            <select>
+			  <option value="Q1">What is your mother's maiden name?</option>
+			  <option value="Q2">What city were you born in?</option>
+			  <option value="Q3">What is your favourite holiday destination? </option>
+			  <option value="W4">What is the name of the first company you worked for?</option>
+			</select>	
+
+            <input type="checkbox" class="chkbox">
+            <span>I agree to the terms & 
                 conditions
-            </span>
+            </span> 
             <input type = "checkbox" class="chkbox"><span>I would like to sign up for weekly emails about saving energy
             </span>
             <button type="submit" class="subbtn">Create Account</button>
@@ -55,6 +71,8 @@
         y.style.left = "450px";
         z.style.left = "0";
         }
+
+
 </script>
 
 

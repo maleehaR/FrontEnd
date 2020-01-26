@@ -11,6 +11,7 @@
     background-size: cover;
     position: absolute;
 }
+
 .formbox{
     width: 380px;
     height:100%;
@@ -18,7 +19,7 @@
     margin: 6% auto;
     background: #fff;
     padding: 5px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 .buttonbox{
     width: 220px;
@@ -26,7 +27,6 @@
     position: relative;
     box-shadow: 0 0 20px 9px #2469ffc7;
     border-radius: 30px;
-
 }
 .toggle-button{
     padding: 10px 30px;
@@ -59,7 +59,7 @@
     border-radius: 50%; 
 }
 .user-infomation{
-    top: 180px;
+    top: 270px;
     position: absolute;
     width: 280px;
     transition: .5s;
